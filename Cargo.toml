@@ -1,0 +1,33 @@
+[package]
+name = "flexsync"
+version = "0.0.0-0.1-allow-disable-heavy-macros"
+
+#edition = "2024"
+edition = "2021"
+# Rust 1.88.0+ is required by mce-lib.
+#rust-version = "1.88.0"
+
+license = "BSD-2-Clause OR Apache-2.0 OR MIT"
+
+authors = ["Peter Lyons Kehl<peter.kehl@gmail.com>"]
+description = "Help reuse same Rust code for both `async` and sync/blocking."
+
+categories = ["no-std", "no-std::no-alloc", "asynchronous", "rust-patterns"]
+keywords = ["no-panic", "verification", "async", "panic"]
+
+repository = "https://github.com/flexsync-rs/flexsync"
+homepage = "https://github.com/flexsync-rs/flexsync"
+
+[lib]
+proc-macro = true
+
+[lints.rust]
+unexpected_cfgs = { level = "forbid"}
+unknown_lints = { level = "forbid"}
+
+[dependencies]
+
+#quote = "1.0.26"
+#serde = { version = "1.0", features = ["derive"] }
+#syn = "2.0.15"
+# proc-macro2-diagnostics = "0.10.1"

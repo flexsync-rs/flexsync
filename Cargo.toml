@@ -4,8 +4,6 @@ version = "0.0.0-0.1-allow-disable-heavy-macros"
 
 #edition = "2024"
 edition = "2021"
-# Rust 1.88.0+ is required by mce-lib.
-#rust-version = "1.88.0"
 
 license = "BSD-2-Clause OR Apache-2.0 OR MIT"
 
